@@ -3,18 +3,22 @@ SELECT * FROM socios;
 SELECT * FROM departamento;
 SELECT * FROM funcionario;
 SELECT * FROM documentos;
+select * from doc_fiscal;
+select * from doc_contabil;
+select * from doc_financeiro;
+select * from doc_legalizacao;
+select * from doc_pessoal;
 
 select nome, nome_social, cnpj, dta_inicio, atividade, registros_necessários, licenciamento
 from empresa e
 inner join empresa_departamento ed
 on ed.id_empresa= e.id_empresa;
 
-
-INSERT INTO doc_fiscal(regularidade_registros, doc_fiscalcol, dta_inicio_prestacao_servico, prestacao_servico, num_alteracao_contratual, cad_taxas_agefis, id_documentos) VALUES('regulado', 0344354561234, '2012-06-05', 'sim', 6, 'sim', 1);
-INSERT INTO doc_fiscal(regularidade_registros, doc_fiscalcol, dta_inicio_prestacao_servico, prestacao_servico, num_alteracao_contratual, cad_taxas_agefis, id_documentos) VALUES('desregulado', 0967834354561234, '2015-06-05', 'sim', 7, 'sim', 2);
-INSERT INTO doc_fiscal(regularidade_registros, doc_fiscalcol, dta_inicio_prestacao_servico, prestacao_servico, num_alteracao_contratual, cad_taxas_agefis, id_documentos) VALUES('desregulado', 06587656354561234, '2012-09-05', 'não', 8, 'sim', 3);
-INSERT INTO doc_fiscal(regularidade_registros, doc_fiscalcol, dta_inicio_prestacao_servico, prestacao_servico, num_alteracao_contratual, cad_taxas_agefis, id_documentos) VALUES('regulado', 0967343567567, '2014-07-12', 'sim', 9, 'não', 4);
-INSERT INTO doc_fiscal(regularidade_registros, doc_fiscalcol, dta_inicio_prestacao_servico, prestacao_servico, num_alteracao_contratual, cad_taxas_agefis, id_documentos) VALUES('regulado', 132333567567, '2014-05-11', 'sim', 5, 'sim', 5);
+INSERT INTO doc_fiscal(regularidade_registros, doc_fiscalcol, dta_inicio_prestacao_servico, prestacao_servico, num_alteracao_contratual, cad_taxas_agefis, id_documentos) VALUES('regulado', 0344354561234, '2012-06-05', 'sim', 6, 'sim', 6);
+INSERT INTO doc_fiscal(regularidade_registros, doc_fiscalcol, dta_inicio_prestacao_servico, prestacao_servico, num_alteracao_contratual, cad_taxas_agefis, id_documentos) VALUES('desregulado', 0967834354561234, '2015-06-05', 'sim', 7, 'sim', 7);
+INSERT INTO doc_fiscal(regularidade_registros, doc_fiscalcol, dta_inicio_prestacao_servico, prestacao_servico, num_alteracao_contratual, cad_taxas_agefis, id_documentos) VALUES('desregulado', 06587656354561234, '2012-09-05', 'não', 8, 'sim', 8);
+INSERT INTO doc_fiscal(regularidade_registros, doc_fiscalcol, dta_inicio_prestacao_servico, prestacao_servico, num_alteracao_contratual, cad_taxas_agefis, id_documentos) VALUES('regulado', 0967343567567, '2014-07-12', 'sim', 9, 'não', 9);
+INSERT INTO doc_fiscal(regularidade_registros, doc_fiscalcol, dta_inicio_prestacao_servico, prestacao_servico, num_alteracao_contratual, cad_taxas_agefis, id_documentos) VALUES('regulado', 132333567567, '2014-05-11', 'sim', 5, 'sim', 10);
 
 select nome, participacao_societaria, s.id_empresa 
 from socios s
