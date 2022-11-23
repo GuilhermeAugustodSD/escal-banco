@@ -1,0 +1,5 @@
+id_doc_contabil,valor_faturamento,valor_honorario,ultimo_reajuste,num_lancamentos_contab,prolabore,id_documentos
+3,300000,1000,2004-06-05,23,sim,6
+4,3000,800,2006-03-25,23,não,7
+5,2000,1200,2003-07-15,23,sim,8
+6,6300,1500,2008-04-18,23,não,9

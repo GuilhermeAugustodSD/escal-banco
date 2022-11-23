@@ -1,0 +1,6 @@
+id_doc_fiscal,regularidade_registros,doc_fiscalcol,dta_inicio_prestacao_servico,prestacao_servico,num_alteracao_contratual,cad_taxas_agefis,id_documentos
+7,regulado,132333567567,2014-05-11,sim,5,sim,10
+8,regulado,967343567567,2014-07-12,sim,9,não,9
+9,desregulado,6587656354561234,2012-09-05,não,8,sim,8
+10,desregulado,967834354561234,2015-06-05,sim,7,sim,7
+11,regulado,344354561234,2012-06-05,sim,6,sim,6

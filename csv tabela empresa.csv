@@ -1,0 +1,6 @@
+id_empresa,nome,nome_social,cnpj,dta_inicio,atividade,registros_necessários,licenciamento
+6,empresa1,empresadois,1234567891011,2000-08-14,NULL,NULL,sim
+7,empresa2,empresa,9821798412,2000-08-14,atividade1,NULL,sim
+8,ampresa,ampresa,74832812,2000-08-14,ativdade2,NULL,não
+9,ampresa2,ampresadois,62741771,2005-12-14,atividade3,NULL,não
+10,umpresa,umpresa,1231202139,2007-09-14,atividade4,NULL,sim
